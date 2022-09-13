@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
  * main - takes no arguments
@@ -7,6 +7,12 @@
  */
 int main(void)
 {
-	printf("_putchar\n");
+	char *str = "_putchar\n\0";
+	int n;
+
+	for (n = 0; str[n] != '\0'; n++)
+	{
+		_putchar(str[n]);
+	}
 	return (0);
 }
