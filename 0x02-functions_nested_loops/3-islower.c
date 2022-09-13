@@ -4,12 +4,11 @@
  * Return: 1 if argurment is lowercase, 0 otherwise
  */
 
+/**
+ * @c:single character parameter
+ */
 int _islower(int c)
 {
-	/**
-	 * c - single character parameter
-	 */
-
 	if (c < 97)
 		return (0);
 	return (1);
