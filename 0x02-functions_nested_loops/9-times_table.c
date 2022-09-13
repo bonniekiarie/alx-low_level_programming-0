@@ -18,15 +18,11 @@ void times_table(void)
 			{
 			_putchar('0' + mul / 10);
 			}
-			else
-			{
-			_putchar(' ');
-			}
 			_putchar('0' + mul % 10);
 			if (j < 9)
 			{
 			_putchar(',');
-			_putchar(' ');
+			_putchar('\t');
 			}
 		}
 			_putchar('\n');
