@@ -12,15 +12,15 @@ int main(void)
 	i = 0;
 	a = 1;
 	b = 2;
-	printf("%li, %li ,", a, b);
+	printf("%li, %li, ", a, b);
 	while (i < 47)
 	{
 		sum = a + b;
-		printf("%li ,", sum);
+		printf("%li, ", sum);
 		a = b;
 		b = sum;
 		i++;
 	}
-	printf("%li\n", a + b);
+	printf("%li \n", a + b);
 	return (0);
 }
