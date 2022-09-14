@@ -12,7 +12,7 @@ int main(void)
 	i = 0;
 	a = 1;
 	b = 2;
-	sum = 0;
+	sum = 2;
 	while (i <= 4000000)
 	{
 		i = a + b;
