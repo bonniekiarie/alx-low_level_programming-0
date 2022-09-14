@@ -21,6 +21,6 @@ int main(void)
 		b = sum;
 		i++;
 	}
-	printf("%li\n", sum);
+	printf("%li\n", a + b);
 	return (0);
 }
