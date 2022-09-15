@@ -7,7 +7,7 @@
 /**
  * @c:single character parameter
  */
-int _isupper(int c);
+int _isupper(int c)
 {
 	if (c > 64 && c < 91)
 		return (1);
